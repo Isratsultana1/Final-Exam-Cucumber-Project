@@ -1,0 +1,145 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-12T21:30:26.213Z",
+        "line": 6,
+        "name": "User should be able to change colour with valid credential",
+        "description": "",
+        "id": "techfios-colour-page-functionality-validation;user-should-be-able-to-change-colour-with-valid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2610000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Set SkyBlue Background button exists",
+            "match": {
+              "location": "steps.ColourPage.Set_SkyBlue_Background_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3079000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the button",
+            "match": {
+              "location": "steps.ColourPage.i_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "steps.ColourPage.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginFeature"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Scenerio1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-12T21:30:31.952Z",
+        "line": 12,
+        "name": "White Background Change with valid credential",
+        "description": "",
+        "id": "techfios-colour-page-functionality-validation;white-background-change-with-valid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3954000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Set SkyWhite Background button exists",
+            "match": {
+              "location": "steps.ColourPage.user_Set_SkyWhite_Background_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3083000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click on the button2",
+            "match": {
+              "location": "steps.ColourPage.user_click_on_the_button2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the background color will change to white",
+            "match": {
+              "location": "steps.ColourPage.the_background_color_will_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginFeature"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Scenerio2"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios colour page functionality validation",
+    "description": "",
+    "id": "techfios-colour-page-functionality-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/techfios.feature",
+    "tags": [
+      {
+        "name": "@LoginFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 15
+        }
+      }
+    ]
+  }
+]
